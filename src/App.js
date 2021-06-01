@@ -1,12 +1,27 @@
+import {
+  Redirect,
+  Switch,
+  Router,
+  Route
+} from 'react-router'
+import { history } from './utils/history'
+import About from './components/About'
 import Header from "./components/Header";
 import MainSection from "./components/Section/index";
 
 function App() {
   return (
-    <>
-      <Header />
-      <MainSection />
-    </>
+    <Router history={history}>
+      <Switch>
+        <Route exact path="/">
+          <Header />
+          <MainSection />
+        </Route>
+        <Route exact path="/about">
+          <About />
+        </Route>
+      </Switch>
+    </Router>
   )
 }
 
