@@ -1,7 +1,3 @@
-import {
-  Row,
-  Col
-} from 'react-bootstrap'
 import './style.css'
 import Header from '../Header'
 import Picture from './carlosvalenciaAbout.jpg'
