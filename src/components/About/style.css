@@ -1,0 +1,23 @@
+.main-section-about {
+  display: flex;
+  margin-top: 40px;
+}
+
+.first-column, .second-column {
+  width: 60%;
+  display: flex;
+  padding: 15px;
+}
+
+.first-column img {
+  width: 35em;
+  position: absolute;
+  left: 60px;
+  z-index: -1;
+  box-shadow: 25px 25px 0px 0px #151618;
+}
+
+.second-column {
+  width: 40%;
+  justify-content: center;
+}
