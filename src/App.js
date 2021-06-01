@@ -1,5 +1,4 @@
 import {
-  Redirect,
   Switch,
   Router,
   Route
