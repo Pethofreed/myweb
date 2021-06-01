@@ -7,7 +7,7 @@ function MainSection() {
       <div class="box">
         <h1>Carlos Valencia</h1>
         <p>Full Stack Developer</p>
-        <button class="btn">Sobre mi</button>
+        <a href="/about"><button class="btn">Sobre mi</button></a>
       </div>
       <img src={Carlos} alt="foto-perfil"/>
     </section>

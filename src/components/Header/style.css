@@ -41,7 +41,12 @@ body {
   display: none;
 }
 
-.nav .logo {
+.nav .logo a {
+  text-decoration: none;
+  color: var(--main-font-color);
+}
+
+.nav .logo a{
   font-size: 2.5em;
   font-family: 'Pattaya', sans-serif;
 }

@@ -1,6 +1,11 @@
+import Header from '../Header'
+
 function About() {
   return (
-    <h1>hola desde about</h1>
+    <>
+      <Header />
+      <h1>hola desde about</h1>
+    </>
   )
 }
 
