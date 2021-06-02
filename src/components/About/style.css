@@ -22,6 +22,7 @@
   width: 50%;
   display: block;
   padding-right: 30px;
+  padding-left: 30px;
   text-align: justify;
 }
 
@@ -53,7 +54,7 @@
     display: block;
     width: 70%;
     margin-bottom: 50px;
-    padding-right: 0;
+    padding: 0;
   }
 
 }
