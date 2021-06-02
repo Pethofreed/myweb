@@ -13,10 +13,10 @@ function About() {
       <Header />
       <Container>
         <Row className="row-about">
-          <Col sm={6} className="first-column">
+          <Col className="first-column">
             <img src={Picture} alt="personal-picture" />
           </Col>
-          <Col sm={6}  className="second-column">
+          <Col className="second-column">
             <p class="title-about">¿Quién soy?</p>
             <p>
               ¡Hola! me llamo <span>Carlos Valencia Henao</span> y tengo 26 años,

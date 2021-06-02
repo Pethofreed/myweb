@@ -5,7 +5,8 @@ import {
 } from 'react-router'
 import { history } from './utils/history'
 import About from './components/About'
-import Header from "./components/Header";
+import Header from "./components/Header"
+import Education from './components/Education'
 import MainSection from "./components/Section/index";
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
         </Route>
         <Route exact path="/about">
           <About />
+        </Route>
+        <Route exact path="/education">
+          <Education />
         </Route>
       </Switch>
     </Router>

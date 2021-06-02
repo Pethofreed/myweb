@@ -1,0 +1,63 @@
+.row-education {
+  display: flex;
+  margin-top: 40px;
+  color: #cff1f1b4;
+}
+
+.first-column-education {
+  width: 30%;
+  display: block;
+  padding: 15px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.first-column, .sena-picture {
+  width: 47%;
+}
+
+.mir-picture {
+  margin-top: 20px;
+  width: 67%;
+}
+
+.second-column-education {
+  width: 70%;
+  display: block;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+.second-column-education p {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+  /* INFORMATION ABOUT SENA */
+  .row-education {
+    display: block;
+  }
+  .first-column-education {
+    margin: 0 auto;
+    display: block;
+    margin-top: 0px;
+    width: 70%;
+  }
+  .second-column-education {
+    margin: 0 auto ;
+    display: block;
+    width: 70%;
+    margin-bottom: 50px;
+    padding: 0;
+  }
+  .first-column, .sena-picture {
+    width: 27%;
+  }
+
+  .mir-picture {
+    width: 47%;
+  }
+
+  /* INFORMATION ABOUT MAKE IT REAL */
+}
