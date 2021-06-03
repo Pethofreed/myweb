@@ -3,9 +3,10 @@ import {
   Router,
   Route
 } from 'react-router'
-import { history } from './utils/history'
 import About from './components/About'
 import Header from "./components/Header"
+import { history } from './utils/history'
+import Projects from './components/Projects'
 import Education from './components/Education'
 import MainSection from "./components/Section/index";
 
@@ -22,6 +23,9 @@ function App() {
         </Route>
         <Route exact path="/education">
           <Education />
+        </Route>
+        <Route exact path="/projects">
+          <Projects />
         </Route>
       </Switch>
     </Router>
