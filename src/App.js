@@ -6,8 +6,10 @@ import {
 import About from './components/About'
 import Header from "./components/Header"
 import { history } from './utils/history'
+import Contact from './components/Contact'
 import Projects from './components/Projects'
 import Education from './components/Education'
+import Experience from './components/Experience'
 import MainSection from "./components/Section/index";
 
 function App() {
@@ -24,8 +26,14 @@ function App() {
         <Route exact path="/education">
           <Education />
         </Route>
+        <Route exact path="/experience">
+          <Experience />
+        </Route>
         <Route exact path="/projects">
           <Projects />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
         </Route>
       </Switch>
     </Router>
