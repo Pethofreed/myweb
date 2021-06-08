@@ -4,15 +4,15 @@
   color: #cff1f1b4;
 }
 
-.first-column {
+.first-column-about {
   width: 50%;
   display: block;
   padding: 15px;
-  margin-top: 50px;
+  margin-top: 20px;
   text-align: center;
 }
 
-.first-column img {
+.first-column-about .carlos-picture {
   width: 95%;
   border-right: 4px solid #f9803a;
   border-bottom: 4px solid #4985c9;
@@ -44,19 +44,23 @@
   .row-about {
     display: block;
   }
-  .first-column {
+
+  .first-column-about {
     margin: 0 auto;
     display: block;
     margin-top: 0px;
     width: 70%;
   }
+
+  .first-column-about .carlos-picture {
+    width: 80%;
+  }
+
   .second-column {
-    margin: 0 auto ;
+    margin: 0 auto;
     display: block;
     width: 70%;
     margin-bottom: 50px;
     padding: 0;
   }
 }
-
-

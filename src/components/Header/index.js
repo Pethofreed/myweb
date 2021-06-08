@@ -11,7 +11,6 @@ function Header() {
           <a href="/about"><li>Sobre mi</li></a>
           <a href="/education"><li>Educación</li></a>
           <a href="/experience"><li>Experiencia</li></a>
-          <a href="/projects"><li>Proyectos</li></a>
           <a href="/contact"><li>Contacto</li></a>
         </ol>
       </header>

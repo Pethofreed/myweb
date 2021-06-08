@@ -1,8 +1,3 @@
-import {
-  Container,
-  Row,
-  Col
-} from 'react-bootstrap'
 import './style.css'
 import Header from '../Header'
 import Picture from './carlosvalenciaAbout.jpg'
@@ -11,12 +6,12 @@ function About() {
   return (
     <>
       <Header />
-      <Container>
-        <Row className="row-about">
-          <Col className="first-column">
-            <img src={Picture} alt="personal-picture" />
-          </Col>
-          <Col className="second-column">
+      <section>
+        <div className="row-about">
+          <div className="first-column-about">
+            <img src={Picture} alt="personal-picture" class="carlos-picture" />
+          </div>
+          <div className="second-column">
             <p class="title-about">¿Quién soy?</p>
             <p>
               ¡Hola! me llamo <span>Carlos Valencia Henao</span> y tengo 26 años,
@@ -45,9 +40,9 @@ function About() {
               a primera vista y desde entonces entregué mucho de mi para poder convertirme en
               desarrollador.
             </p>
-          </Col>
-        </Row>
-      </Container>
+          </div>
+        </div>
+      </section>
     </>
   )
 }

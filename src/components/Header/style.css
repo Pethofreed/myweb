@@ -51,6 +51,11 @@ body {
   font-family: 'Pattaya', sans-serif;
 }
 
+.nav .logo:hover {
+  animation: swing;
+  animation-duration: 1s;
+}
+
 .nav ol {
   list-style: none;
 }
