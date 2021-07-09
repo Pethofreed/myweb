@@ -14,7 +14,7 @@ function About() {
           <div className="second-column">
             <p class="title-about">¿Quién soy?</p>
             <p>
-              ¡Hola! me llamo <span>Carlos Valencia Henao</span> y tengo 26 años,
+              ¡Hola! me llamo <span>Carlos Valencia Henao</span> y tengo 27 años,
               (el lampiño de la foto jaja) soy Colombiano... paisa, y soy un enamorado
               más del mundo del desarrollo.
             </p>

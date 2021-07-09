@@ -1,78 +1,129 @@
+/* 1 hashtag */
 .row-projects {
   display: block;
   margin-top: 40px;
   color: #cff1f1b4;
 }
 
-.title-projects {
+/* 2 hashtag */
+.title-my-recipe {
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   text-align: center;
   font-size: 1.9em;
 }
 
+/* 3 hashtag */
+.main-container {
+  width: 100%;
+  margin-right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* 4 hashtag */
+.description {
+  width: 40%;
+  text-align: justify;
+}
+
+.description p {
+  margin-bottom: 10px;
+}
+
+/* 5 hashtag */
+.multimedia {
+  width: 40%;
+  display: flex;
+}
+
+.multimedia p {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* 6 hashtag */
+.multimedia .project-demo {
+  color: #f9813a;
+}
+
+/* 7 hashtag */
+.video-demo {
+  width: 100%;
+}
+
+/* 8 hashtag */
+.video-demo-iframe {
+  width: 560px;
+  height: 315px;
+}
+
+/* 9 hashtag */
 .description-projects {
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
 }
 
+/* 10 hashtag */
 .description-projects p {
   margin-bottom: 10px;
   text-align: justify;
 }
 
-.paragraph-video p {
-  margin-top: 40px;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-.paragraph-video p span {
-  color: #f9813a;
-}
-
-.video-demo {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.video-demo-iframe {
-  width: 560px;
-  height: 315px;
-}
-
+/* 11 hashtag */
 .description-projects .other-info {
   font-size: 1.3em;
 }
 
+/* 12 hashtag */
 .list {
   margin-top: 30px;
   margin-left: 50px;
   margin-bottom: 30px;
 }
 
+/* 13 hashtag */
 a {
   color: #f9813a;
   text-decoration: none;
 }
 
+/* 14 hashtag */
 .repos {
   margin-left: 10px;
 }
 
+
+/* media query */
 @media (max-width: 900px) {
-  .video-demo-iframe {
+
+  /* 3 hashtag */
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* 4-5 hashtag */
+  .description,
+  .multimedia {
+    width: 80%;
+    margin: 0 10% 10%;
+  }
+
+  /* .video-demo-iframe {
     width: 400px;
     height: 250px;
-  }
+  } */
 }
 
 @media (max-width: 980px) {
-  .video-demo-iframe {
+  /* .video-demo-iframe {
     width: 300px;
     height: 200px;
-  }
+  } */
 }

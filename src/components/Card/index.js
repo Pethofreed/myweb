@@ -32,6 +32,17 @@ function Cards() {
         <div class="box">
           <div class="content">
             <h2>03</h2>
+            <h3>Tres Pi Medios</h3>
+            <p>Es una agencia de marketing digital y desarrollo web</p>
+            <a href="#">Leer más</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="box">
+          <div class="content">
+            <h2>04</h2>
             <h3>El Quijote</h3>
             <p>Es un programa de escritrio creado para facilitar la
               administración de un hotel en diferentes ámbitos.</p>
@@ -39,6 +50,7 @@ function Cards() {
           </div>
         </div>
       </div>
+
     </div>
   )
 }
